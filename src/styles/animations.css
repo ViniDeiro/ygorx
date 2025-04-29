@@ -1,0 +1,249 @@
+/* Arquivo de animações para o site do YgorX */
+
+/* Animações gerais */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideInUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes gradientBg {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes textGlow {
+  0% {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(80, 120, 255, 0.8);
+  }
+  100% {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  }
+}
+
+/* Classes de animação */
+.fade-in {
+  animation: fadeIn 1s ease forwards;
+}
+
+.slide-in-up {
+  animation: slideInUp 0.8s ease forwards;
+}
+
+.slide-in-left {
+  animation: slideInLeft 0.8s ease forwards;
+}
+
+.slide-in-right {
+  animation: slideInRight 0.8s ease forwards;
+}
+
+.scale-in {
+  animation: scaleIn 0.8s ease forwards;
+}
+
+.pulse {
+  animation: pulse 2s infinite;
+}
+
+.float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.rotating {
+  animation: rotating 10s linear infinite;
+}
+
+.shake:hover {
+  animation: shake 0.5s ease;
+}
+
+.gradient-bg {
+  background: linear-gradient(-45deg, #3182ce, #805ad5, #38b2ac, #4299e1);
+  background-size: 400% 400%;
+  animation: gradientBg 15s ease infinite;
+}
+
+.text-glow {
+  animation: textGlow 3s ease-in-out infinite;
+}
+
+/* Delays de animação */
+.delay-100 {
+  animation-delay: 100ms;
+}
+
+.delay-200 {
+  animation-delay: 200ms;
+}
+
+.delay-300 {
+  animation-delay: 300ms;
+}
+
+.delay-400 {
+  animation-delay: 400ms;
+}
+
+.delay-500 {
+  animation-delay: 500ms;
+}
+
+.delay-700 {
+  animation-delay: 700ms;
+}
+
+.delay-1000 {
+  animation-delay: 1000ms;
+}
+
+/* Animações específicas para o tema de Free Fire */
+@keyframes fireFlicker {
+  0% { filter: drop-shadow(0 0 5px rgba(255, 100, 0, 0.5)); }
+  50% { filter: drop-shadow(0 0 15px rgba(255, 70, 0, 0.8)); }
+  100% { filter: drop-shadow(0 0 5px rgba(255, 100, 0, 0.5)); }
+}
+
+.fire-flicker {
+  animation: fireFlicker 2s ease-in-out infinite;
+}
+
+@keyframes gunshot {
+  0% { transform: scale(1); opacity: 1; }
+  10% { transform: scale(1.2) rotate(-2deg); opacity: 1; }
+  20% { transform: scale(1) rotate(0); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.gunshot {
+  animation: gunshot 2s ease-out;
+}
+
+@keyframes smokeEffect {
+  0% { 
+    filter: blur(0px);
+    opacity: 0;
+  }
+  20% { 
+    filter: blur(2px);
+    opacity: 0.8;
+  }
+  100% { 
+    filter: blur(10px);
+    opacity: 0;
+  }
+}
+
+.smoke-effect {
+  animation: smokeEffect 2s ease-out forwards;
+}
+
+/* Animação de pontos/estatísticas de jogador */
+@keyframes statsIncrement {
+  from {
+    opacity: 0.5;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.stats-animate {
+  animation: statsIncrement 1s ease forwards;
+} 

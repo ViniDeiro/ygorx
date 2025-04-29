@@ -1,0 +1,20 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1.5" fill="white" opacity="0.3" />
+    </pattern>
+    <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect width="100" height="100" fill="url(#dots)" />
+      <path d="M 100 0 L 0 0 0 100" fill="none" stroke="white" stroke-width="0.5" opacity="0.2" />
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#grid)" />
+  
+  <!-- Elementos decorativos flutuantes -->
+  <circle cx="10%" cy="20%" r="60" fill="white" opacity="0.03" />
+  <circle cx="85%" cy="60%" r="120" fill="white" opacity="0.02" />
+  <circle cx="40%" cy="90%" r="80" fill="white" opacity="0.03" />
+  
+  <path d="M0,50 Q50,0 100,50 T200,50 T300,50 T400,50" stroke="white" stroke-width="2" fill="none" opacity="0.05" />
+  <path d="M0,80 Q50,30 100,80 T200,80 T300,80 T400,80" stroke="white" stroke-width="1" fill="none" opacity="0.05" />
+</svg> 
