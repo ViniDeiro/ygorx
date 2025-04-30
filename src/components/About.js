@@ -26,7 +26,7 @@ export default function About() {
         
         <div className={styles.bio}>
           <p>
-            Ygor Lemes Do Prado, mais conhecido como YgorX, é um dos mais influentes jogadores de Free Fire e empresários 
+            YgorX é um dos mais influentes jogadores de Free Fire e empresários 
             brasileiros da nova geração, destacando-se tanto no cenário gamer quanto por sua visão inovadora 
             no ecossistema de tecnologia e negócios digitais.
           </p>

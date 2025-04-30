@@ -58,7 +58,7 @@ export default function Home() {
     <>
       <Head>
         <title>YgorX - Pro Player de Free Fire e Empreendedor</title>
-        <meta name="description" content="Site oficial de Ygor Lemes Do Prado (YgorX), jogador profissional de Free Fire, empreendedor e investidor brasileiro especializado em eSports, tecnologia e educação" />
+        <meta name="description" content="Site oficial de YgorX, jogador profissional de Free Fire, empreendedor e investidor brasileiro especializado em eSports, tecnologia e educação" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" />
@@ -82,8 +82,7 @@ export default function Home() {
             
             <div className={styles.heroContent}>
               <h1 className={`${styles.title} ${styles.glitchEffect}`}>
-                <span data-text="YGOR">YGOR</span>
-                <span data-text="LEMES">LEMES</span>
+                <span data-text="YGORX">YGORX</span>
               </h1>
               
               <div className={styles.subtitle}>
