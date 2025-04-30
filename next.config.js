@@ -4,6 +4,8 @@ const nextConfig = {
   images: {
     domains: ['example.com'],
   },
+  output: 'export',
+  basePath: '/ygorx',
 }
 
 module.exports = nextConfig 
