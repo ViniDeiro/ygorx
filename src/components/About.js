@@ -26,38 +26,22 @@ export default function About() {
         
         <div className={styles.bio}>
           <p>
-            YgorX é um dos mais influentes jogadores de Free Fire e empresários 
-            brasileiros da nova geração, destacando-se tanto no cenário gamer quanto por sua visão inovadora 
-            no ecossistema de tecnologia e negócios digitais.
+            YgorX é um dos mais influentes jogadores de Free Fire do Brasil, 
+            destacando-se como um dos principais nomes do cenário competitivo do jogo.
           </p>
           
           <p>
-            Nascido em São Paulo em 1988, YgorX iniciou sua carreira como jogador competitivo de Free Fire em 2017, 
-            rapidamente se tornando um dos principais nomes do eSport no Brasil. Com mais de 5 milhões de seguidores 
-            nas plataformas digitais, transformou sua popularidade como streamer e pro-player em uma oportunidade 
-            de empreendedorismo, criando sua própria linha de produtos e eventos para gamers.
+            Nascido em Minas Gerais em 1999, começou sua jornada no Free Fire em 2017 e 
+            rapidamente se tornou um fenômeno do cenário emulador, conhecido pelo seu "360º perfeito". 
+            Sua carreira profissional inclui passagens por grandes equipes como PM BR, Game Over, 
+            paiN Gaming, Los Grandes, Flamengo e Netshoes, acumulando dois títulos e três vice-campeonatos 
+            na NFA (Liga Nacional de Free Fire).
           </p>
           
           <p>
-            Em 2012, antes mesmo de sua carreira nos eSports, fundou a YgorX Tech, sua primeira empresa focada em 
-            desenvolvimento de software para automação de processos empresariais, que rapidamente se tornou referência 
-            em soluções de IA para negócios. O sucesso desta empreitada, combinado com sua ascensão no mundo dos games, 
-            permitiu sua expansão para outros setores como investimentos (2015), educação online (2018) 
-            e energia renovável (2020).
-          </p>
-          
-          <p>
-            Reconhecido pela revista Forbes como um dos "30 Under 30" em 2019 e campeão do Pro League de Free Fire em 2018, 
-            YgorX revolucionou a maneira como jogadores profissionais podem diversificar suas carreiras. Ele tem sido 
-            frequentemente convidado como palestrante em eventos de tecnologia e gaming, compartilhando sua experiência 
-            em transformação digital e convergência entre eSports e empreendedorismo.
-          </p>
-          
-          <p>
-            Em 2021, lançou o "YgorX Gaming Hub", uma aceleradora de talentos para jogadores de Free Fire e outros 
-            jogos competitivos, oferecendo mentoria e infraestrutura para jovens gamers. Através desta iniciativa e 
-            da Fundação YgorX, já beneficiou mais de 5.000 jovens de comunidades vulneráveis com programas de capacitação 
-            tecnológica e introdução ao mundo dos eSports.
+            Além de sua carreira como pro player, YgorX se destaca como criador de conteúdo 
+            e influenciador digital, inspirando milhares de jovens que sonham em seguir carreira 
+            nos eSports e construindo uma marca forte no cenário competitivo brasileiro.
           </p>
           
           <div className={styles.achievements}>
